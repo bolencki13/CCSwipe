@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = CCSwipe;
+		cell = PSLinkCell;
+		detail = "SinisterPrefsListController";
+		icon = "CCSwipe.png";
+		isController = 1;
+		label = CCSwipe;
+	};
+}

@@ -1,0 +1,9 @@
+Package: com.sinisterindustries.ccswipe
+Name: CCSwipe
+Depends: mobilesubstrate
+Version: 1.1.3
+Architecture: iphoneos-arm
+Description: Swipe gestures involving control center
+Maintainer: Sinister Industries
+Author: Sinister Industries
+Section: Tweaks
