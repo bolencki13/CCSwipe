@@ -143,7 +143,7 @@
 - (id)specifiers {
 	if(_specifiers == nil)
 	{
-		_specifiers = [self loadSpecifiersFromPlistName:@"SinisterSubPrefs" target:self];
+		_specifiers = [self loadSpecifiersFromPlistName:@"CCSwipeSubPrefs" target:self];
 		
 		//Setting navigation title
 		UIImage *navIconImage = [[UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/navicon.png", @BundlePath]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
@@ -228,7 +228,7 @@
 
 #pragma mark - NSUserDefaults
 - (void)setUpAndGetSaved {
-    prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.sinisterindustries.ccswipe"];
+    prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.sinisterindustries.ccswipe~prefs"];
     [prefs registerDefaults:@{
                               @"rightBound" : [NSNumber numberWithInt:(int)((SCREEN.size.width/3)*2)],
                               @"leftBound" : [NSNumber numberWithInt:(int)(SCREEN.size.width/3)],
@@ -371,7 +371,7 @@
 {
 	if(_specifiers == nil)
 	{
-		_specifiers = [self loadSpecifiersFromPlistName:@"SinisterDevs" target:self];
+		_specifiers = [self loadSpecifiersFromPlistName:@"CCSwipeCredits" target:self];
 		
 		//Setting navigation title
 		UIImage *navIconImage = [[UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/navicon.png", @BundlePath]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
