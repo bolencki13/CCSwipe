@@ -11,10 +11,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>Switch</string>
 			<key>footerText</key>
-			<string>Master Switch</string>
+			<string>Master switch for the whole tweak.</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -22,7 +20,7 @@
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
-			<string>com.sinisterindustries.ccswipe</string>
+			<string>com.sinisterindustries.ccswipe~prefs</string>
 			<key>key</key>
 			<string>ccswipeEnabled</string>
 			<key>label</key>
@@ -30,11 +28,13 @@
 			<key>icon</key>
 			<string>settings.png</string>
 			<key>PostNotification</key>
-			<string>com.sinisterdevs.ccswipe/prefsChanged</string>
+			<string>com.sinisterindustries.ccswipe~prefschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Configure the tweak.</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -42,7 +42,7 @@
 			<key>isController</key>
 			<string>1</string>
 			<key>label</key>
-			<string>More Settings</string>
+			<string>Settings</string>
 			<key>icon</key>
 			<string>more.png</string>
 			<key>detail</key>
@@ -51,6 +51,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Who made this tweak?</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -58,7 +60,7 @@
 			<key>isController</key>
 			<string>1</string>
 			<key>label</key>
-			<string>Who made this?</string>
+			<string>Credits</string>
 			<key>icon</key>
 			<string>person.png</string>
 			<key>detail</key>
@@ -66,6 +68,6 @@
 		</dict>
 	</array>
 	<key>title</key>
-	<string>Sinister Dev Team</string>
+	<string>CCSwipe</string>
 </dict>
 </plist>

@@ -1,9 +1,0 @@
-Package: com.sinisterindustries.preferencestemplate
-Name: Preferences Template
-Depends: mobilesubstrate
-Version: 1.1.3
-Architecture: iphoneos-arm
-Description: Sinister Industries Preferences Template
-Maintainer: Sinister Industries
-Author: Sinister Industries
-Section: Tweaks

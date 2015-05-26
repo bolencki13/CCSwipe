@@ -22,7 +22,7 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.sinisterindustries.ccswipe</string>
+			<string>com.sinisterindustries.ccswipe~prefs</string>
 			<key>key</key>
 			<string>reverseEnabled</string>
 			<key>label</key>
@@ -30,7 +30,7 @@
 			<key>icon</key>
 			<string>settings.png</string>
 			<key>PostNotification</key>
-			<string>com.sinisterdevs.ccswipe/prefsChanged</string>
+			<string>com.sinisterdevs.ccswipe~prefschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -44,7 +44,7 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.sinisterindustries.ccswipe</string>
+			<string>com.sinisterindustries.ccswipe~prefs</string>
 			<key>key</key>
 			<string>lockHomescreenEnabled</string>
 			<key>label</key>
@@ -52,6 +52,6 @@
 		</dict>
 	</array>
 	<key>title</key>
-	<string>Sinister Dev Team</string>
+	<string>Settings</string>
 </dict>
 </plist>

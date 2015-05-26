@@ -10,7 +10,7 @@
 %hook SBUIController
 - (void)_showControlCenterGestureBeganWithLocation:(struct CGPoint)arg1 {
 
-	NSUserDefaults *prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.sinisterindustries.ccswipe"];
+	NSUserDefaults *prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.sinisterindustries.ccswipe~prefs"];
 	BOOL ccswipeEnabled = [prefs boolForKey:@"ccswipeEnabled"];
 	BOOL reverseEnabled = [prefs boolForKey:@"reverseEnabled"];
 	BOOL lockHomescreenEnabled = [prefs boolForKey:@"lockHomescreenEnabled"];
