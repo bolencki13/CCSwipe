@@ -1,0 +1,10 @@
+!theos
+!.theos
+!obj
+!deb
+!_
+!*/.theos
+!*/theos
+!*/obj
+!*/_
+!Packages
