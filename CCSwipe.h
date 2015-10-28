@@ -13,6 +13,7 @@
 @interface SBUIController
 - (void)_toggleSwitcher;
 - (_Bool)clickedMenuButton;
+- (_Bool)handleMenuDoubleTap;
 @end
 
 @interface SBControlCenterController : UIViewController
