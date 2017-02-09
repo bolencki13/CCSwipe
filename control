@@ -4,6 +4,6 @@ Depends: mobilesubstrate
 Version: 1.1.4
 Architecture: iphoneos-arm
 Description: Swipe gestures involving control center
-Maintainer: Sinister Industries
+Maintainer: bolencki13
 Author: Sinister Industries
 Section: Tweaks
